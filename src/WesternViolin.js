@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Instrument from './Instrument';
+import violin from './violin.png';
 
 class WesternViolin extends Component {
   
@@ -24,6 +25,7 @@ class WesternViolin extends Component {
     ];
     return (
       <div className="WesternViolin">
+        <img src={violin} height={400}/> <br/>
         <Instrument notes={notes} />
       </div>
     );
